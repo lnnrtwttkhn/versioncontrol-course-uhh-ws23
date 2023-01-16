@@ -1,0 +1,9 @@
+---
+title: "Resources"
+image: string
+comments: false
+---
+
+
+
+https://the-turing-way.netlify.app/reproducible-research/vcs.html#

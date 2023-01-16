@@ -1,5 +1,92 @@
 ---
 title: "About"
+comments: false
+# about:
+#   id: lennart
+#   template: solana
+#   image-shape: round
+#   image-width: 18em
+#   links:
+#     - icon: envelope
+#       text: Email
+#       href: mailto:lennart.wittkuhn@uni-hamburg.de
+#       aria-label: Email
+#     - icon: globe
+#       text: Website
+#       href: https://lennartwittkuhn.com/
+#       aria-label: Website
+#     - icon: github
+#       text: GitHub
+#       href: https://github.com/lnnrtwttkhn
+#       aria-label: GitHub
+#     - icon: twitter
+#       text: Twitter
+#       href: https://twitter.com/lnnrtwttkhn
+#       aria-label: Twitter
+#     - icon: google
+#       text: Scholar
+#       href: https://scholar.google.de/citations?user=GXvJB1kAAAAJ&hl=en
+#       aria-label: Google Scholar
+#     - icon: mastodon
+#       text: Mastodon
+#       href: https://fediscience.org/users/lnnrtwttkhn
+#       aria-label: Mastodon
+#     - icon: linkedin
+#       text: LinkedIn
+#       href: https://www.linkedin.com/in/dr-lennart-wittkuhn-6a079a1a8/
+#       aria-label: linkedin
 ---
 
-About this site
+## Teaching Contents
+
+The digital objects on our computers are in a constant state of flux.
+Manuscripts, programming code and research data are continuously and often collaboratively changed over long periods of time.
+Systematic documentation of these changes forms the basis for controlled and reproducible work on code and data.
+
+In a seminar with hands-on exercises, students will learn "Version Control of Code and Data with Git and DataLad".
+Version control is the notebook for a digital world and Git is probably the best known version control system [^git].
+It allows to precisely document changes in digital objects and thus to track who changed what, when, how and why in a file.
+Changes can be revised, versions can be compared and restored.
+In addition, it is possible to work simultaneously on the same file and systematically integrate parallel versions.
+In addition, Git enables effective collaboration.
+Via platforms such as GitHub or GitLab, code and data can be shared with the world, transparently viewed by others, used and collaboratively developed.
+In this way, version control helps ensure that knowledge generated from data is transparent, accessible and verifiable.
+As an effective method for storing and manipulating code and data, version control thus represents a core competency of data literacy.
+
+Because Git was developed for versioning small, text-based files (such as programming code), its usability with larger, binary files (such as image or video data) is limited for technical reasons.
+The open-source software DataLad [^datalad] extends the features of Git to provide version control for large data sets (up to several terabytes).
+DataLad is applicable to arbitrary data structures and is independent of any central infrastructure or third-party vendors.
+Like Git, DataLad allows tracking changes to data and restoring previous versions of a data set.
+Furthermore, DataLad allows you to capture the digital provenance of data and accurately reproduce analyses of the data.
+In addition, DataLad allows students to publish their own data on a variety of platforms or use existing data.
+
+During their studies, psychology students receive a multifaceted education in research methodology, statistics and scientific work.
+The teaching concept complements practice-oriented skills in the effective handling of programming code and research data.
+The skills learned are applied especially in the context of empirical theses and experimental psychology internships.
+The discussion of concepts such as reproducibility, open code, and open data supports the understanding of science and principles of good scientific practice.
+Because of their extensive methodological training, psychologists are in demand for careers as data analysts or data scientists in industry in addition to professional jobs in research.
+Since version control is a standard in professional software development, the employability and innovative ability of the graduates is increased.
+In addition to these practical skills, students are taught theoretical concepts in the areas of Open Science, Open Code, Open Data and Open Source.
+This enables them to reflect on increasingly digital and data-driven economic and social processes and thus promotes participative "self-empowered citizenship".
+
+A continuation of the teaching concept within psychology, in particular in a planned research-oriented master's program starting in winter semester 23/24, is planned.
+Skills in the use of version control are relevant in all subject areas in which digital data are processed.
+The teaching content and practical exercises can also be taught across disciplines and are therefore very well transferable to other degree programs.
+The publication of all teaching materials as Open Educational Resources enables independent re-use and further development (see [teaching concept](./teachingconcept.ipynb)).
+
+[^limesurvey]: https://umfragen.uni-hamburg.de/
+[^gitkraken]: https://www.gitkraken.com/github-student-developer-pack
+[^dataladgooey]: http://docs.datalad.org/projects/gooey/en/stable/
+[^jupyter]: https://jupyter.org/
+[^quarto]: https://quarto.org/
+[^ccybysa]: https://creativecommons.org/licenses/by-sa/4.0/
+[^zenodo]: https://zenodo.org/
+[^highspeed]: https://wittkuhn.mpib.berlin/highspeed/
+[^talkrdm]: https://lennartwittkuhn.com/talk-rdm/
+[^jupyterhub]: https://code.min.uni-hamburg.de/
+[^binder]: https://mybinder.org/
+[^zoom]: https://uni-hamburg.zoom.us/
+[^lecture2go]: https://lecture2go.uni-hamburg.de/
+[^gitlab]: https://gitlab.rrz.uni-hamburg.de
+[^jupyterbook]: https://jupyterbook.org/
+[^website]: https://lennartwittkuhn.com/ddtlitlab/

@@ -1,7 +1,37 @@
 ---
-title: "versioncontrol-course"
+title: "Version control of code and data using Git and DataLad"
+subtitle: "A full-semester course at the University of Hamburg"
+image: https://keeper.mpdl.mpg.de/f/b36de98f493d4cb6b0e3/?dl=1
+comments: false
+about:
+  template: trestles
+  image-shape: rectangle
+  image-width: 32em
 ---
 
-This is a Quarto website.
+### Welcome!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is the website of the full-semester course on "{{< meta title >}}" at the University of Hamburg.
+
+
+---
+
+{{< fa circle-info >}} **What?** Full-semester course on version control
+
+{{< fa calendar-days >}} **When?** Wintersemester 2023/24 (Oct to Jan)
+
+{{< fa building-columns >}} **Where?** University of Hamburg (virtual TBD)
+
+{{< fa user-group >}} **Who?** Master's and PhD students (target group)
+
+{{< fa brain >}} **Focus?** Psychology and Cognitive Neuroscience
+
+---
+
+{{< fa envelope-circle-check >}} **Updates?** Sign-up for our mailing list!
+
+{{< fa brands github >}} **Source code?** Find all source code [on GitHub]({{< var links.github >}}){target="_blank"}!
+
+{{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.email >}}){target="_blank"}!
+
+{{< fa heart >}} **Thanks!** Thanks to all [supporters](acknowledgements.qmd){target="_self"}!

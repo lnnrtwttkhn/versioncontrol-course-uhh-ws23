@@ -1,0 +1,45 @@
+---
+title: "Acknowledgements & Attribution"
+image: string
+comments: false
+---
+
+## Funding
+
+This project is funded by the [Digital and Data Literacy in Teaching Lab (DDLitLab)](https://www.isa.uni-hamburg.de/en/ddlitlab.html){target="_blank"}, an initiative by the [ISA-Zentrum](https://www.isa.uni-hamburg.de/) at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
+The Digital and Data Literacy in Teaching Lab program is in turn funded by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/en/){target="_blank"} (details can be found [here](https://stiftung-hochschullehre.de/projekt/ddlitlab/){target="_blank"}).
+
+Our project proposal can be found [here](https://lennartwittkuhn.com/ddlitlab) (in German).
+
+Special thanks to [Carolin Scharfenberg](https://www.isa.uni-hamburg.de/en/ddlitlab/team/scharfenberg-carolin.html){target="_blank"} for help with project coordination and administration as well as [Moritz Kreinsen](https://www.isa.uni-hamburg.de/en/ddlitlab/team/kreinsen-moritz.html){target="_blank"} and [Sören-Kristian Berger](https://www.isa.uni-hamburg.de/en/ddlitlab/team/berger-soeren-kristian.html){target="_blank"} for support in the application process.
+
+## Website
+
+### Code
+
+This website is made with [Quarto](https://quarto.org/){target="_blank"}.
+
+The source code for this website can be found [on GitHub]({{< var links.github >}}){target="_blank"} {{< fa brands github >}}.
+
+### Images
+
+Images are stored on [Keeper](https://keeper.mpdl.mpg.de/d/0bb16773a8a84244bb76/){target="_blank"}.
+
+The illustration on the [homepage](index.qmd){target="_self"} is an illustration created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome){target="_blank"}.
+It is used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/){target="_blank"}. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300){target="_blank"}
+
+### License
+
+All code is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/){target="_blank"}.
+
+## Inspiration
+
+### Quarto Website
+
+- [Personal Website of Robert Mitchell](https://robertmitchellv.com/about.html){target="_blank"}
+
+## Links
+
+- [Search of Fontawesome Icons](https://fontawesome.com/search){target="_blank"}
+- [How to open hyperlinks in new tab by default](https://github.com/quarto-dev/quarto-cli/discussions/3169){target="_blank"}
+- [Can you make callouts collapsable by default](https://github.com/quarto-dev/quarto-cli/discussions/2869){target="_blank"}
