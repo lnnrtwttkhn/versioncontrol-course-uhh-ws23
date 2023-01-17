@@ -59,6 +59,7 @@ format:
     page-layout: full
     fontcolor: black
     linkcolor: black
+    link-external-newwindow: true
     toc: true
     toc-depth: 4
     toc-title: "Contents"
