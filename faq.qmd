@@ -35,3 +35,17 @@ This is still being discussed.
 Watch this space for any updates and sign-up for the mailing list.
 :::
 
+## Course
+
+::: {.callout-tip}
+## When will the course take place?
+The course will take place in the Winter semester 2023/24.
+The lecture period is from 9 October 2023 to 27 January 2024.
+The exact times and dates will be announced soon.
+:::
+
+::: {.callout-tip}
+## Where will the course take place?
+The course will take place at the [Institute of Psychology](https://www.psy.uni-hamburg.de/en.html) at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
+The exact room will be announced soon.
+:::
