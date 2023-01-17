@@ -13,7 +13,6 @@ about:
 
 This is the website of the full-semester course on "{{< meta title >}}" at the University of Hamburg.
 
-
 ---
 
 {{< fa circle-info >}} **What?** Full-semester course on version control
