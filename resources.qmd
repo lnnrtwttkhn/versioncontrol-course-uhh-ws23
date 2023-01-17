@@ -4,6 +4,4 @@ image: string
 comments: false
 ---
 
-
-
-https://the-turing-way.netlify.app/reproducible-research/vcs.html#
+<script src="https://gist.github.com/lnnrtwttkhn/295054ba1315f2d45afc55bfe56fe9a9.js"></script>
