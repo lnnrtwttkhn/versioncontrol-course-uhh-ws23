@@ -10,4 +10,6 @@ magrittr
 rmarkdown
 downlit
 xml2
+googlesheets4
+DT
 ```

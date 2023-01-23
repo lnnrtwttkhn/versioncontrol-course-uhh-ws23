@@ -4,4 +4,58 @@ image: string
 comments: false
 ---
 
-<script src="https://gist.github.com/lnnrtwttkhn/295054ba1315f2d45afc55bfe56fe9a9.js"></script>
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
+library("magrittr")
+```
+
+```{r}
+ccby40 = "[![License: CC BY 4.0](https://img.shields.io/badge/CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
+ccbysa40 = "[![License: CC BY-SA 4.0](https://img.shields.io/badge/CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)"
+mit = "[![License: MIT](https://img.shields.io/badge/MIT-lightgray.svg)](https://opensource.org/licenses/MIT)"
+```
+
+```{r}
+link <- "https://docs.google.com/spreadsheets/d/1-nana238MzguhbIGnCQEQEfG6GT7WTMdICCgHtG2d4s/edit?usp=sharing"
+googlesheets4::gs4_deauth() # indicate there is no need for a token
+df <- googlesheets4::read_sheet(link) %>%
+  data.table::setDT(.) %>%
+  .[, source := data.table::fcase(
+    grepl("github", source), sprintf("[{{< fa brands github >}}](%s)", source),
+    grepl("doi", source), sprintf("[{{< ai doi >}}](%s)", source)
+  )] %>%
+  .[, license := data.table::fcase(
+    license == "CC BY 4.0", ccby40,
+    license == "CC BY-SA 4.0", ccbysa40,
+    license == "MIT", mit
+  )] %>%
+  .[, title := sprintf("[%s](%s)", title, link)] %>%
+  data.table::setorder(-year)
+```
+
+## Guides
+
+```{r}
+df %>%
+  .[category == "guide", ] %>% 
+  .[, c("title", "authors", "year", "source", "license")] %>%
+  knitr::kable(., format = "markdown")
+```
+
+## Courses
+
+```{r}
+df %>%
+  .[category == "course", ] %>% 
+  .[, c("title", "authors", "year", "source", "license")] %>%
+  knitr::kable(., format = "markdown")
+```
+
+## Papers
+
+```{r}
+df %>%
+  .[category == "paper", ] %>% 
+  .[, c("title", "authors", "year", "source", "license")] %>%
+  knitr::kable(., format = "markdown")
+```
