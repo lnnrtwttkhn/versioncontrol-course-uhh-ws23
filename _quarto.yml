@@ -14,7 +14,7 @@ website:
   description: "Webiste for a full-semester course at University of Hamburg on version control of code and data using Git and DataLad"
   site-url: https://www.lennartwittkuhn.com/versioncontrol-course
   repo-url: https://github.com/lnnrtwttkhn/versioncontrol-course
-  open-graph: true
+  open-graph: false
   
   navbar:
     background: light
@@ -72,5 +72,3 @@ format:
     reference-location: margin
     footnotes-hover: true
     highlight-style: tango
-
-
