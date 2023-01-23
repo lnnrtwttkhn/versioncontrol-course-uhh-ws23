@@ -2,9 +2,12 @@
 title: "Team"
 ---
 
-```{r, echo=FALSE, include=FALSE}
-renv::activate()
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 library("magrittr")
+```
+
+```{r}
 variables <- yaml::read_yaml("_variables.yml")
 dt <- data.table::rbindlist(variables$team, fill=TRUE) %>%
   data.table::melt(., id.vars = c("id")) %>%
