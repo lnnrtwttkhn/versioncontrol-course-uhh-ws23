@@ -3,6 +3,20 @@ title: "About"
 comments: false
 ---
 
+## Overview
+
+{{< fa circle-info >}} **What?** Full-semester course on version control
+
+{{< fa calendar-days >}} **When?** Wintersemester 2023/24 (Oct to Jan)
+
+{{< fa building-columns >}} **Where?** University of Hamburg (virtual TBD)
+
+{{< fa user-group >}} **Who?** Master's and PhD students (target group)
+
+{{< fa brain >}} **Focus?** Psychology and Cognitive Neuroscience
+
+
+
 ## Teaching Contents
 
 The digital objects on our computers are in a constant state of flux.
