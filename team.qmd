@@ -1,5 +1,7 @@
 ---
 title: "Team"
+toc: true
+toc-title: "Team"
 ---
 
 ```{r, include=FALSE}
