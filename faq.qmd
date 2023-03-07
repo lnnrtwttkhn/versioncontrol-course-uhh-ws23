@@ -11,7 +11,7 @@ filters:
 ::: {.callout-note collapse=false}
 ## This website is still under active development! {{< fa wrench >}}
 We are continuously updating information on this website.
-Watch this space for any updates and sign-up for the mailing list.
+Watch this space for any updates.
 If you have any urgent questions, always feel free to write an [email]({{< var links.email >}}).
 Thank you for your patience!
 :::
@@ -21,7 +21,7 @@ Thank you for your patience!
 ::: {.callout-tip}
 ## Can I participate online?
 This is still being discussed.
-Watch this space for any updates and sign-up for the mailing list.
+Watch this space for any updates.
 :::
 
 ::: {.callout-tip}
@@ -32,7 +32,7 @@ The course is targeted at Master's and PhD students in Psychology and Cognitive 
 ::: {.callout-tip}
 ## Do I have to be a student at the University of Hamburg in order to participate?
 This is still being discussed.
-Watch this space for any updates and sign-up for the mailing list.
+Watch this space for any updates.
 :::
 
 ## Course
