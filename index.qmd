@@ -29,6 +29,8 @@ This is the website of the full-semester course on "{{< meta title >}}" at the U
 
 {{< fa envelope-circle-check >}} **Updates?** Sign-up for our mailing list!
 
+{{< fa user-plus >}} **Jobs?** Join our [team](team.qmd){target="_self"}!
+
 {{< fa brands github >}} **Source code?** Find all source code [on GitHub]({{< var links.github >}}){target="_blank"}!
 
 {{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.email >}}){target="_blank"}!
