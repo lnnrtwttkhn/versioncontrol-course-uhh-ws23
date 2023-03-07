@@ -92,3 +92,24 @@ buttons <- dt %>% .[id == "nico"] %>% .$button_icon %>% create_grid()
 :::
 
 :::
+
+## Student Research Assistant
+
+::: {.grid}
+
+::: {.g-col-4}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/2048px-User-avatar.svg.png){fig-alt="A portrait photo of Nicolas Schuck."}
+:::
+
+::: {.g-col-8}
+### You?
+We are looking for a **student research assistant** (SHK/WHK)!
+
+- {{< fa list-check >}} **Tasks:** Supporting the teaching project (preparation of teaching materials, evaluation, project reporting, etc.)
+- {{< fa business-time >}} **Duration:** 01.06.2023 to 31.03.2024 (10 months)
+- {{< fa clock >}} **Hours:** 32 hours per month
+- {{< fa money-check-dollar >}} **Salary:** SHK: 12.00 € / hour | WHK: 13.95 € / hour
+
+Details can be found [here](https://lennartwittkuhn.com/ddlitlab/ausschreibung_whk.html) (in German).
+
+:::
