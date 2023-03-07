@@ -10,7 +10,7 @@ project:
 
 website:
   title: "Version control of code and data using Git and DataLad"
-#  favicon: string
+  favicon: "{{< fa code-branch >}}"
   description: "Website for a full-semester course at University of Hamburg on version control of code and data using Git and DataLad"
   site-url: https://www.lennartwittkuhn.com/versioncontrol-course
   repo-url: https://github.com/lnnrtwttkhn/versioncontrol-course
@@ -45,7 +45,7 @@ website:
     background: light
     border: true
     left: |
-      © {{< var years >}} [Lennart Wittkuhn](https://lennartwittkuhn.com/){target="_blank"}
+      © {{< var years >}} [Dr. Lennart Wittkuhn](https://lennartwittkuhn.com/){target="_blank"}
     center:
       - text: "Funded by the Digital and Data Literacy in Teaching Lab"
         href: acknowledgements.qmd
