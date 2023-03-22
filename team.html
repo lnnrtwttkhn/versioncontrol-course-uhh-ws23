@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.2.335">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
 <title>Version control of code and data using Git and DataLad - Team</title>
 <style>
 code{white-space: pre-wrap;}
@@ -18,6 +21,7 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
+
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
@@ -35,8 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -55,43 +58,48 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+
+
 </head>
+
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item">
+  <li class="nav-item">
     <a class="nav-link" href="./index.html">
- <span class="menu-text"><i class="fa-solid fa-house" aria-label="house"></i> Home</span></a>
+ <span class="menu-text"> Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">
- <span class="menu-text"><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> About</span></a>
+ <span class="menu-text"> About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./schedule.html">
- <span class="menu-text"><i class="fa-solid fa-clipboard-list" aria-label="clipboard-list"></i> Schedule</span></a>
+ <span class="menu-text"> Schedule</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./team.html" aria-current="page">
- <span class="menu-text"><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Team</span></a>
+ <span class="menu-text"> Team</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resources.html">
- <span class="menu-text"><i class="fa-solid fa-gem" aria-label="gem"></i> Resources</span></a>
+ <span class="menu-text"> Resources</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./faq.html">
- <span class="menu-text"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> FAQ</span></a>
+ <span class="menu-text"> FAQ</span></a>
   </li>  
 </ul>
-<ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item compact">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
     <a class="nav-link" href="mailto:lennart.wittkuhn@uni-hamburg.de"><i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
  <span class="menu-text"></span></a>
@@ -102,24 +110,34 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-<div id="quarto-search" class="" title="Search"></div>
+              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Team</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Team</h2>
    
   <ul>
-<li><a href="#project-leader-instructor" id="toc-project-leader-instructor" class="nav-link active" data-scroll-target="#project-leader-instructor">Project Leader &amp; Instructor</a></li>
+  <li><a href="#project-leader-instructor" id="toc-project-leader-instructor" class="nav-link active" data-scroll-target="#project-leader-instructor">Project Leader &amp; Instructor</a></li>
   <li><a href="#scientific-advisor" id="toc-scientific-advisor" class="nav-link" data-scroll-target="#scientific-advisor">Scientific Advisor</a></li>
-  <li><a href="#student-research-assistant" id="toc-student-research-assistant" class="nav-link" data-scroll-target="#student-research-assistant">Student Research Assistant</a></li>
-  <li><a href="#student-teaching-assistant" id="toc-student-teaching-assistant" class="nav-link" data-scroll-target="#student-teaching-assistant">Student Teaching Assistant</a></li>
-  </ul></nav>
+  <li><a href="#student-research-assistant" id="toc-student-research-assistant" class="nav-link" data-scroll-target="#student-research-assistant">Student Research Assistant</a>
+  <ul>
+  <li><a href="#you" id="toc-you" class="nav-link" data-scroll-target="#you">You?</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
 <h1 class="title">Team</h1>
 </div>
 
@@ -133,82 +151,85 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-</header><div class="cell">
+</header>
+
+<div class="cell">
 
 </div>
-<section id="project-leader-instructor" class="level2"><h2 class="anchored" data-anchor-id="project-leader-instructor">Project Leader &amp; Instructor</h2>
+<section id="project-leader-instructor" class="level2">
+<h2 class="anchored" data-anchor-id="project-leader-instructor">Project Leader &amp; Instructor</h2>
 <div class="grid">
 <div class="g-col-4">
 <p><img src="images/photo_wittkuhn_portrait.jpg" class="img-fluid" alt="A portrait photo of Lennart Wittkuhn."></p>
 </div>
-<section id="dr.-lennart-wittkuhn" class="level3 g-col-8"><h3 class="anchored" data-anchor-id="dr.-lennart-wittkuhn">Dr.&nbsp;Lennart Wittkuhn</h3>
+<section id="dr.-lennart-wittkuhn" class="level3 g-col-8">
+<h3 class="anchored" data-anchor-id="dr.-lennart-wittkuhn">Dr.&nbsp;Lennart Wittkuhn</h3>
 <p>Lennart is a <strong>Postdoctoral Researcher</strong> and <strong>Lab Manager</strong> in the <a href="https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html">Research Group “Mechanisms of Learning and Change”</a> at the <a href="https://www.uni-hamburg.de/en.html">University of Hamburg</a> and the <a href="https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode">Max Planck Research Group NeuroCode</a> at the <a href="https://www.mpib-berlin.mpg.de/en">Max Planck Institute for Human Development</a> in Berlin. In his scientific work, Lennart investigates <strong>neural replay of task representations</strong> in the human brain using functional magnetic resonance imaging (fMRI). He is also passionate about <strong>open science</strong>, <strong>research data management</strong>, <strong>reproducibility</strong> and tools that improve the scientific workflow.</p>
-<table class="table"><tbody><tr class="odd">
-<td><a href="mailto:lennart.wittkuhn@uni-hamburg.de" target="_blank"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></td>
-<td><a href="https://lennartwittkuhn.com/" target="_blank"><i class="fa-solid fa-house-user" aria-label="house-user"></i></a></td>
-<td><a href="https://github.com/lnnrtwttkhn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i></a></td>
-<td><a href="https://twitter.com/lnnrtwttkhn" target="_blank"><i class="fa-brands fa-twitter" aria-label="twitter"></i></a></td>
-<td><a href="https://fediscience.org/users/lnnrtwttkhn" target="_blank"><i class="fa-brands fa-mastodon" aria-label="mastodon"></i></a></td>
-<td><a href="https://scholar.google.de/citations?user=GXvJB1kAAAAJ&amp;hl=en" target="_blank"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i></a></td>
-<td><a href="https://www.linkedin.com/in/dr-lennart-wittkuhn-6a079a1a8/" target="_blank"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a></td>
-</tr></tbody></table></section>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="mailto:lennart.wittkuhn@uni-hamburg.de" target="_blank"></a></td>
+<td><a href="https://lennartwittkuhn.com/" target="_blank"></a></td>
+<td><a href="https://github.com/lnnrtwttkhn" target="_blank"></a></td>
+<td><a href="https://twitter.com/lnnrtwttkhn" target="_blank"></a></td>
+<td><a href="https://fediscience.org/users/lnnrtwttkhn" target="_blank"></a></td>
+<td><a href="https://scholar.google.de/citations?user=GXvJB1kAAAAJ&amp;hl=en" target="_blank"></a></td>
+<td><a href="https://www.linkedin.com/in/dr-lennart-wittkuhn-6a079a1a8/" target="_blank"></a></td>
+</tr>
+</tbody>
+</table>
+</section>
 </div>
-</section><section id="scientific-advisor" class="level2"><h2 class="anchored" data-anchor-id="scientific-advisor">Scientific Advisor</h2>
+</section>
+<section id="scientific-advisor" class="level2">
+<h2 class="anchored" data-anchor-id="scientific-advisor">Scientific Advisor</h2>
 <div class="grid">
-<section id="prof.-dr.-nicolas-schuck" class="level3 g-col-8"><h3 class="anchored" data-anchor-id="prof.-dr.-nicolas-schuck">Prof.&nbsp;Dr.&nbsp;Nicolas Schuck</h3>
+<section id="prof.-dr.-nicolas-schuck" class="level3 g-col-8">
+<h3 class="anchored" data-anchor-id="prof.-dr.-nicolas-schuck">Prof.&nbsp;Dr.&nbsp;Nicolas Schuck</h3>
 <p>Nico is a professor of Psychology and principal investigator of the <a href="https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html">Research Group “Mechanisms of Learning and Change”</a> at the <a href="https://www.uni-hamburg.de/en.html">University of Hamburg</a> and the <a href="https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode">Max Planck Research Group NeuroCode</a> at the <a href="https://www.mpib-berlin.mpg.de/en">Max Planck Institute for Human Development</a> in Berlin.</p>
-<table class="table"><tbody><tr class="odd">
-<td><a href="mailto:nicolas.schuck@uni-hamburg.de" target="_blank"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a></td>
-<td><a href="https://schucklab.gitlab.io/" target="_blank"><i class="fa-solid fa-house-user" aria-label="house-user"></i></a></td>
-<td><a href="https://github.com/nschuck/" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i></a></td>
-<td><a href="https://twitter.com/nico_schuck" target="_blank"><i class="fa-brands fa-twitter" aria-label="twitter"></i></a></td>
-<td><a href="https://mastodon.online/@nicoschuck" target="_blank"><i class="fa-brands fa-mastodon" aria-label="mastodon"></i></a></td>
-<td><a href="https://scholar.google.com/citations?user=n21HDbAAAAAJ&amp;hl=en" target="_blank"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i></a></td>
-<td><a href="https://www.linkedin.com/in/nicolas-schuck-72542247/" target="_blank"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a></td>
-</tr></tbody></table></section><div class="g-col-4">
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><a href="mailto:nicolas.schuck@uni-hamburg.de" target="_blank"></a></td>
+<td><a href="https://schucklab.gitlab.io/" target="_blank"></a></td>
+<td><a href="https://github.com/nschuck/" target="_blank"></a></td>
+<td><a href="https://twitter.com/nico_schuck" target="_blank"></a></td>
+<td><a href="https://mastodon.online/@nicoschuck" target="_blank"></a></td>
+<td><a href="https://scholar.google.com/citations?user=n21HDbAAAAAJ&amp;hl=en" target="_blank"></a></td>
+<td><a href="https://www.linkedin.com/in/nicolas-schuck-72542247/" target="_blank"></a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<div class="g-col-4">
 <p><img src="images/photo_schuck_portrait.jpg" class="img-fluid" alt="A portrait photo of Nicolas Schuck."></p>
 </div>
 </div>
-</section><section id="student-research-assistant" class="level2"><h2 class="anchored" data-anchor-id="student-research-assistant">Student Research Assistant</h2>
-<div class="grid">
+</section>
+<section id="student-research-assistant" class="level2">
+<h2 class="anchored" data-anchor-id="student-research-assistant">Student Research Assistant</h2>
+<p>::: {.grid}</p>
 <div class="g-col-4">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/2048px-User-avatar.svg.png" class="img-fluid" alt="A portrait photo of Nicolas Schuck."></p>
 </div>
-<section id="you" class="level3 g-col-8"><h3 class="anchored" data-anchor-id="you">You?</h3>
+<section id="you" class="level3 g-col-8">
+<h3 class="anchored" data-anchor-id="you">You?</h3>
 <p>We are looking for a <strong>student research assistant</strong> (SHK/WHK)!</p>
 <ul>
-<li>
-<i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Tasks:</strong> Supporting the teaching project (preparation of teaching materials, evaluation, project reporting, etc.)</li>
-<li>
-<i class="fa-solid fa-business-time" aria-label="business-time"></i> <strong>Duration:</strong> 01.06.2023 to 31.03.2024 (10 months)</li>
-<li>
-<i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Hours:</strong> 32 hours per month (flexible working hours)</li>
-<li>
-<i class="fa-solid fa-money-check-dollar" aria-label="money-check-dollar"></i> <strong>Salary:</strong> SHK: 12.00 € / hour | WHK: 13.95 € / hour</li>
+<li> <strong>Tasks:</strong> Supporting the teaching project (preparation of teaching materials, evaluation, project reporting, etc.)</li>
+<li> <strong>Duration:</strong> 01.06.2023 to 31.03.2024 (10 months)</li>
+<li> <strong>Hours:</strong> 32 hours per month (flexible working hours)</li>
+<li> <strong>Salary:</strong> SHK: 12.00 € / hour | WHK: 13.95 € / hour</li>
 </ul>
 <p>Details can be found <a href="https://lennartwittkuhn.com/ddlitlab/ausschreibung_whk.html">here</a> (in German).</p>
 </section>
-</div>
-</section><section id="student-teaching-assistant" class="level2"><h2 class="anchored" data-anchor-id="student-teaching-assistant">Student Teaching Assistant</h2>
-<div class="grid">
-<section id="you-1" class="level3 g-col-8"><h3 class="anchored" data-anchor-id="you-1">You?</h3>
-<p>We are soon looking for a <strong>student teaching assistant</strong>!</p>
-<ul>
-<li>
-<i class="fa-solid fa-business-time" aria-label="business-time"></i> <strong>Duration:</strong> 09.10.2023 to 27.01.2024 (WS 2023/24)</li>
-<li>
-<i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Hours:</strong> 2 semester hours (90 minutes) per week</li>
-<li>
-<i class="fa-solid fa-money-check-dollar" aria-label="money-check-dollar"></i> <strong>Salary:</strong> 347,52 € / week</li>
-</ul>
-<p>Details will be announced soon.</p>
-</section><div class="g-col-4">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/2048px-User-avatar.svg.png" class="img-fluid" alt="A portrait photo of Nicolas Schuck."></p>
-</div>
-</div>
 
 
-</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+
+</main> <!-- /main -->
+<script defer="" data-domain="lennartwittkuhn.com/versioncontrol-course-uhh-ws23" src="https://plausible.io/js/script.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -356,18 +377,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">© 2023 – 2024 <a href="https://lennartwittkuhn.com/" target="_blank">Dr.&nbsp;Lennart Wittkuhn</a></div>   
       <div class="nav-footer-center">
         <ul class="footer-items list-unstyled">
-<li class="nav-item">
+    <li class="nav-item">
     <a class="nav-link" href="./acknowledgements.html">Funded by the Digital and Data Literacy in Teaching Lab</a>
   </li>  
 </ul>
-</div>
+      </div>
     <div class="nav-footer-right">License: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a> | <a href="./acknowledgements.html" target="_self">Acknowledgements</a></div>
   </div>
 </footer>
+
 
 
 </body></html>
