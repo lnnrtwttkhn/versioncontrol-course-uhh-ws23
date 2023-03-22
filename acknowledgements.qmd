@@ -7,17 +7,17 @@ comments: false
 ## Funding
 
 This project is funded by the [Digital and Data Literacy in Teaching Lab (DDLitLab)](https://www.isa.uni-hamburg.de/en/ddlitlab.html), an initiative by the [ISA-Zentrum](https://www.isa.uni-hamburg.de/) at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
-The Digital and Data Literacy in Teaching Lab program is in turn funded by [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/en/) (details can be found [here](https://stiftung-hochschullehre.de/projekt/ddlitlab/)).
+The Digital and Data Literacy in Teaching Lab program is in turn funded by the [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/en/) (details can be found [here](https://stiftung-hochschullehre.de/projekt/ddlitlab/)).
 
 Our project proposal can be found [here](https://lennartwittkuhn.com/ddlitlab) (in German).
 
-Special thanks to [Carolin Scharfenberg](https://www.isa.uni-hamburg.de/en/ddlitlab/team/scharfenberg-carolin.html){target="_blank"} as well as [Moritz Kreinsen](https://www.isa.uni-hamburg.de/en/ddlitlab/team/kreinsen-moritz.html) and [Sören-Kristian Berger](https://www.isa.uni-hamburg.de/en/ddlitlab/team/berger-soeren-kristian.html) for help with project coordination, administration, and the project application process.
+Special thanks to [Carolin Scharfenberg](https://www.isa.uni-hamburg.de/en/ddlitlab/team/scharfenberg-carolin.html){target="_blank"} as well as [Moritz Kreinsen](https://www.isa.uni-hamburg.de/en/ddlitlab/team/kreinsen-moritz.html) and [Sören-Kristian Berger](https://www.isa.uni-hamburg.de/en/ddlitlab/team/berger-soeren-kristian.html) for help with project coordination, administration, and the grant application process.
 
 ## Website
 
 ### Code
 
-This website is made with [Quarto](https://quarto.org/).
+This website is made with 🖤 and [Quarto](https://quarto.org/).
 
 The source code for this website can be found [on GitHub]({{< var links.github >}}) {{< fa brands github >}}.
 
@@ -39,6 +39,8 @@ Details of the license can be found [here](http://brailleinstitute.org/wp-conten
 All code is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Inspiration
+
+This list of sources of inspiration is incomplete and will be continously updated.
 
 ### Quarto Websites
 
