@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  pre-render: make prepare
   
   preview: 
     port: 9999

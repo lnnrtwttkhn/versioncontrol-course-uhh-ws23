@@ -23,7 +23,7 @@ The source code for this website can be found [on GitHub]({{< var links.github >
 
 ### Images
 
-Images are stored on [Keeper](https://keeper.mpdl.mpg.de/d/49b531de2061496694f2/).
+Images are stored on [Keeper]({{< var links.keeper >}}).
 
 The illustration on the [homepage](index.qmd){target="_self"} is an illustration created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome).
 It is used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300)

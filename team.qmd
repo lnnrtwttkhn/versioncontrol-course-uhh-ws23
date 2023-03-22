@@ -56,7 +56,7 @@ create_grid = function(buttons) {
 ::: {.grid}
 
 ::: {.g-col-4}
-![](photo_wittkuhn_portrait.jpg){fig-alt="A portrait photo of Lennart Wittkuhn."}
+![](images/photo_wittkuhn_portrait.jpg){fig-alt="A portrait photo of Lennart Wittkuhn."}
 :::
 
 ::: {.g-col-8}
@@ -89,7 +89,7 @@ buttons <- dt %>% .[id == "nico"] %>% .$button_icon %>% create_grid()
 :::
 
 ::: {.g-col-4}
-![](photo_schuck_portrait.jpg){fig-alt="A portrait photo of Nicolas Schuck."}
+![](images/photo_schuck_portrait.jpg){fig-alt="A portrait photo of Nicolas Schuck."}
 :::
 
 :::
