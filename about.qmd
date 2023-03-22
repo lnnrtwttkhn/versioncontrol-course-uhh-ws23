@@ -17,7 +17,7 @@ comments: false
 
 
 
-## Teaching Contents
+## Abstract
 
 The digital objects on our computers are in a constant state of flux.
 Manuscripts, programming code and research data are changed continuously over long periods of time, often in close collaboration with others.
