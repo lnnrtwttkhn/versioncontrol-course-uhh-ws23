@@ -34,6 +34,10 @@ This website uses the [Atkinson Hyperlegible](https://brailleinstitute.org/freef
 Copyright © 2020, Braille Institute of America, Inc., [https://www.brailleinstitute.org/freefont](https://www.brailleinstitute.org/freefont) with Reserved Typeface Name Atkinson Hyperlegible Font.
 Details of the license can be found [here](http://brailleinstitute.org/wp-content/uploads/2020/11/Atkinson-Hyperlegible-Font-License-2020-1104.pdf).
 
+### Analytics
+
+We use [Plausible](https://plausible.io/). Plausible is an "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
+
 ### License
 
 All code is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
