@@ -111,7 +111,7 @@ We are looking for a **student research assistant** (SHK/WHK)!
 - {{< fa clock >}} **Hours:** 32 hours per month (flexible working hours)
 - {{< fa money-check-dollar >}} **Salary:** SHK: 12.00 € / hour | WHK: 13.95 € / hour
 
-Details can be found [here](https://lennartwittkuhn.com/ddlitlab/ausschreibung_whk.html) (in German).
+Details can be found on the [project website](https://lennartwittkuhn.com/ddlitlab/ausschreibung_whk.html) and in [this PDF](https://keeper.mpdl.mpg.de/lib/5c6f41ee-2174-423f-b657-e99f75a08af2/file/job_shk_whk_ddlitlab_git.pdf).
 
 :::
 

@@ -29,9 +29,9 @@ This is the website of the full-semester course on "{{< meta title >}}" at the U
 
 {{< fa user-plus >}} **Jobs?** Join our [team](team.qmd){target="_self"}!
 
-{{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var links.github >}}){target="_blank"}!
+{{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var links.github >}})!
 
-{{< fa lightbulb >}} **Details?** Read our project [proposal](https://lennartwittkuhn.com/ddlitlab/intro.html)!
+{{< fa lightbulb >}} **Details?** Read our project [proposal]({{< var links.proposal >}})!
 
 {{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.email >}}){target="_blank"}!
 
