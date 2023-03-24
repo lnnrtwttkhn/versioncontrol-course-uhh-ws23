@@ -1,1 +1,1 @@
-Sitemap: https://www.lennartwittkuhn.com/versioncontrol-course/sitemap.xml
+Sitemap: https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/sitemap.xml
