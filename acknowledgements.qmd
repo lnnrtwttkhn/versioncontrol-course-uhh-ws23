@@ -26,7 +26,7 @@ The source code for this website can be found [on GitHub]({{< var links.github >
 Images are stored on [Keeper]({{< var links.keeper >}}).
 
 The illustration on the [homepage](index.qmd){target="_self"} is an illustration created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome).
-It is used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300)
+It is used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300).
 
 ### Font
 
@@ -41,6 +41,14 @@ We use [Plausible](https://plausible.io/). Plausible is an "intuitive, lightweig
 ### License
 
 All code is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+### Contact
+
+Did you spot an error?
+Is there an issue with the website?
+Do you have feedback, questions or comments?
+We would love to hear from you!
+Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var links.email >}}){target="_blank"}.
 
 ## Inspiration
 
