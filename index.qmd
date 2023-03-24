@@ -33,6 +33,8 @@ This is the website of the full-semester course on "{{< meta title >}}" at the U
 
 {{< fa lightbulb >}} **Details?** Read our project [proposal]({{< var links.proposal >}})!
 
+{{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}})  or send an [email]({{< var links.email >}}){target="_blank"}!
+
 {{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.email >}}){target="_blank"}!
 
 {{< fa heart >}} **Thanks!** Thanks to all our [supporters](acknowledgements.qmd){target="_self"}!
