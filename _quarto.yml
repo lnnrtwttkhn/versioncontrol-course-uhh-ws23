@@ -11,10 +11,10 @@ project:
 
 website:
   title: "Version control of code and data using Git and DataLad"
-  favicon: "{{< fa code-branch >}}"
+  # favicon: "{{< fa code-branch >}}"
   description: "Website for a full-semester course at University of Hamburg on version control of code and data using Git and DataLad"
-  site-url: https://www.lennartwittkuhn.com/versioncontrol-course
-  repo-url: https://github.com/lnnrtwttkhn/versioncontrol-course
+  site-url: https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23
+  repo-url: https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23
   open-graph: false
   
   navbar:
@@ -40,18 +40,18 @@ website:
         href: mailto:lennart.wittkuhn@uni-hamburg.de
       - icon: github
         aria-label: GitHub
-        href: https://github.com/lnnrtwttkhn/versioncontrol-course
+        href: https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23
         
   page-footer:
     background: light
     border: true
     left: |
-      © {{< var years >}} [Dr. Lennart Wittkuhn](https://lennartwittkuhn.com/){target="_blank"}
+      © {{< var years >}} [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
     center:
       - text: "Funded by the Digital and Data Literacy in Teaching Lab"
         href: acknowledgements.qmd
     right: |
-      License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/){target="_blank"} | [Acknowledgements](acknowledgements.qmd){target="_self"}
+      License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Acknowledgements](acknowledgements.qmd){target="_self"}
 
 format:
   html:
