@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/team.html</loc>
-    <lastmod>2023-05-01T03:02:06.004Z</lastmod>
-  </url>
-  <url>
     <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/resources.html</loc>
-    <lastmod>2023-05-01T03:02:10.152Z</lastmod>
+    <lastmod>2023-05-31T15:19:36.310Z</lastmod>
   </url>
   <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/schedule.html</loc>
-    <lastmod>2023-05-01T03:02:10.504Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/about.html</loc>
-    <lastmod>2023-05-01T03:02:10.904Z</lastmod>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/team.html</loc>
+    <lastmod>2023-05-31T15:19:39.130Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/index.html</loc>
-    <lastmod>2023-05-01T03:02:11.320Z</lastmod>
+    <lastmod>2023-05-31T15:19:39.534Z</lastmod>
   </url>
   <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/faq.html</loc>
-    <lastmod>2023-05-01T03:02:11.760Z</lastmod>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/schedule.html</loc>
+    <lastmod>2023-05-31T15:19:39.878Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/about.html</loc>
+    <lastmod>2023-05-31T15:19:40.286Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/acknowledgements.html</loc>
-    <lastmod>2023-05-01T03:02:12.188Z</lastmod>
+    <lastmod>2023-05-31T15:19:40.722Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/faq.html</loc>
+    <lastmod>2023-05-31T15:19:41.142Z</lastmod>
   </url>
 </urlset>
