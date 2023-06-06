@@ -56,13 +56,6 @@
     "text": "Student Teaching Assistant\n\n\nYou?\nWe are soon looking for a student teaching assistant!\n\n Tasks: Assistance during teaching (e.g., supporting course participants during seminars and exercises)\n Duration: 09.10.2023 to 27.01.2024 (WS 2023/24)\n Hours: 2 semester hours (SWS; 90 minutes) per week\n Salary: 135.44 € / SWS\n\nDetails will follow soon. Feel free to send an email for any inquiries."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Version control of code and data using Git and DataLad",
-    "section": "",
-    "text": "Welcome!\nThis is the website of the full-semester course on “Version control of code and data using Git and DataLad” at the University of Hamburg.\n\n What? Full-semester course on version control\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience\n\n Jobs? Join our team!\n Code? Find all source code on GitHub!\n Details? Read our project proposal!\n Bug? Open an issue or send an email!\n Questions? Read the FAQ or send an email!\n Thanks! Thanks to all our supporters!"
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
@@ -70,25 +63,32 @@
     "text": "The course schedule is still under construction! \n\n\n\n\n\nWe are continuously updating information on this website. Watch this space for any updates. If you have any urgent questions, always feel free to write an email. Thank you for your patience!"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Version control of code and data using Git and DataLad",
     "section": "",
-    "text": "What? Full-semester course on version control using Git and DataLad\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience"
+    "text": "Welcome!\nThis is the website of the full-semester course on “Version control of code and data using Git and DataLad” at the University of Hamburg.\n\n What? Full-semester course on version control\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience\n\n Jobs? Join our team!\n Code? Find all source code on GitHub!\n Details? Read our project proposal!\n Bug? Open an issue or send an email!\n Questions? Read the FAQ or send an email!\n Thanks! Thanks to all our supporters!"
   },
   {
-    "objectID": "about.html#overview",
-    "href": "about.html#overview",
-    "title": "About",
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
     "section": "",
-    "text": "What? Full-semester course on version control using Git and DataLad\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience"
+    "text": "This website is still under active development! \n\n\n\n\n\nWe are continuously updating information on this website. Watch this space for any updates. If you have any urgent questions, always feel free to write an email. Thank you for your patience!"
   },
   {
-    "objectID": "about.html#abstract",
-    "href": "about.html#abstract",
-    "title": "About",
-    "section": "Abstract",
-    "text": "Abstract\nThe digital objects on our computers are in a constant state of flux. Manuscripts, programming code and research data are changed continuously over long periods of time, often in close collaboration with others. A systematic documentation of these changes forms the basis for controlled and reproducible work on code and data. In a seminar with hands-on exercises, course participants will learn “Version control of code and data using Git and DataLad”.\nVersion control is the notebook for a digital world and Git is probably the best known version control system. Git allows to precisely document changes in digital objects and thus to track who changed what, when, how and why in a file. Changes can be revised, versions can be compared and restored. In addition, it is possible to work simultaneously on the same file and systematically integrate parallel versions. In addition, Git enables effective collaboration. Via platforms such as GitHub or GitLab, code and data can be shared with the world, transparently viewed by others, used and collaboratively developed. In this way, version control helps to ensure that knowledge generated from data is transparent, accessible and verifiable. As an effective method for storing and manipulating code and data, version control thus represents a core competency of data literacy.\nBecause Git was developed for versioning small, text-based files (such as programming code), its usability with larger, binary files (such as image or video data) is limited for technical reasons. The open-source software DataLad extends the features of Git to provide version control for large data sets (up to several terabytes). DataLad is applicable to arbitrary data structures and is independent of any central infrastructure or third-party vendors. Like Git, DataLad allows tracking changes to data and restoring previous versions of a data set. Furthermore, DataLad allows you to capture the digital provenance of data and accurately reproduce analyses of the data. In addition, DataLad allows to publish data on a variety of platforms or use existing data."
+    "objectID": "faq.html#participation",
+    "href": "faq.html#participation",
+    "title": "FAQ",
+    "section": "Participation",
+    "text": "Participation\n\n\n\n\n\n\nCan I participate online?\n\n\n\nThis is still being discussed. Watch this space for any updates.\n\n\n\n\n\n\n\n\nWho can participate in the course?\n\n\n\nThe course is targeted at Master’s and PhD students in Psychology and Cognitive Neuroscience.\n\n\n\n\n\n\n\n\nDo I have to be a student at the University of Hamburg in order to participate?\n\n\n\nThis is still being discussed. Watch this space for any updates."
+  },
+  {
+    "objectID": "faq.html#course",
+    "href": "faq.html#course",
+    "title": "FAQ",
+    "section": "Course",
+    "text": "Course\n\n\n\n\n\n\nWhen will the course take place?\n\n\n\nThe course will take place in the Winter semester 2023/24. The lecture period is from 9 October 2023 to 27 January 2024. The exact times and dates will be announced soon.\n\n\n\n\n\n\n\n\nWhere will the course take place?\n\n\n\nThe course will take place at the Institute of Psychology at the University of Hamburg. The exact room will be announced soon."
   },
   {
     "objectID": "acknowledgements.html",
@@ -126,24 +126,24 @@
     "text": "Links\n\nSearch of Fontawesome Icons\nHow to open hyperlinks in new tab by default\nCan you make callouts collapsable by default\nMarkdown License Badges"
   },
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "This website is still under active development! \n\n\n\n\n\nWe are continuously updating information on this website. Watch this space for any updates. If you have any urgent questions, always feel free to write an email. Thank you for your patience!"
+    "text": "What? Full-semester course on version control using Git and DataLad\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience"
   },
   {
-    "objectID": "faq.html#participation",
-    "href": "faq.html#participation",
-    "title": "FAQ",
-    "section": "Participation",
-    "text": "Participation\n\n\n\n\n\n\nCan I participate online?\n\n\n\nThis is still being discussed. Watch this space for any updates.\n\n\n\n\n\n\n\n\nWho can participate in the course?\n\n\n\nThe course is targeted at Master’s and PhD students in Psychology and Cognitive Neuroscience.\n\n\n\n\n\n\n\n\nDo I have to be a student at the University of Hamburg in order to participate?\n\n\n\nThis is still being discussed. Watch this space for any updates."
+    "objectID": "about.html#overview",
+    "href": "about.html#overview",
+    "title": "About",
+    "section": "",
+    "text": "What? Full-semester course on version control using Git and DataLad\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience"
   },
   {
-    "objectID": "faq.html#course",
-    "href": "faq.html#course",
-    "title": "FAQ",
-    "section": "Course",
-    "text": "Course\n\n\n\n\n\n\nWhen will the course take place?\n\n\n\nThe course will take place in the Winter semester 2023/24. The lecture period is from 9 October 2023 to 27 January 2024. The exact times and dates will be announced soon.\n\n\n\n\n\n\n\n\nWhere will the course take place?\n\n\n\nThe course will take place at the Institute of Psychology at the University of Hamburg. The exact room will be announced soon."
+    "objectID": "about.html#abstract",
+    "href": "about.html#abstract",
+    "title": "About",
+    "section": "Abstract",
+    "text": "Abstract\nThe digital objects on our computers are in a constant state of flux. Manuscripts, programming code and research data are changed continuously over long periods of time, often in close collaboration with others. A systematic documentation of these changes forms the basis for controlled and reproducible work on code and data. In a seminar with hands-on exercises, course participants will learn “Version control of code and data using Git and DataLad”.\nVersion control is the notebook for a digital world and Git is probably the best known version control system. Git allows to precisely document changes in digital objects and thus to track who changed what, when, how and why in a file. Changes can be revised, versions can be compared and restored. In addition, it is possible to work simultaneously on the same file and systematically integrate parallel versions. In addition, Git enables effective collaboration. Via platforms such as GitHub or GitLab, code and data can be shared with the world, transparently viewed by others, used and collaboratively developed. In this way, version control helps to ensure that knowledge generated from data is transparent, accessible and verifiable. As an effective method for storing and manipulating code and data, version control thus represents a core competency of data literacy.\nBecause Git was developed for versioning small, text-based files (such as programming code), its usability with larger, binary files (such as image or video data) is limited for technical reasons. The open-source software DataLad extends the features of Git to provide version control for large data sets (up to several terabytes). DataLad is applicable to arbitrary data structures and is independent of any central infrastructure or third-party vendors. Like Git, DataLad allows tracking changes to data and restoring previous versions of a data set. Furthermore, DataLad allows you to capture the digital provenance of data and accurately reproduce analyses of the data. In addition, DataLad allows to publish data on a variety of platforms or use existing data."
   }
 ]
