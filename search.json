@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements & Attribution",
+    "section": "",
+    "text": "This project is funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details can be found here).\nOur project proposal can be found here (in German).\nSpecial thanks to Carolin Scharfenberg as well as Moritz Kreinsen and Sören-Kristian Berger for help with project coordination, administration, and the grant application process."
+  },
+  {
+    "objectID": "acknowledgements.html#funding",
+    "href": "acknowledgements.html#funding",
+    "title": "Acknowledgements & Attribution",
+    "section": "",
+    "text": "This project is funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details can be found here).\nOur project proposal can be found here (in German).\nSpecial thanks to Carolin Scharfenberg as well as Moritz Kreinsen and Sören-Kristian Berger for help with project coordination, administration, and the grant application process."
+  },
+  {
+    "objectID": "acknowledgements.html#website",
+    "href": "acknowledgements.html#website",
+    "title": "Acknowledgements & Attribution",
+    "section": "Website",
+    "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Keeper.\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll contents are licensed under CC BY-SA 4.0, unless indicated otherwise.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
+  },
+  {
+    "objectID": "acknowledgements.html#inspiration",
+    "href": "acknowledgements.html#inspiration",
+    "title": "Acknowledgements & Attribution",
+    "section": "Inspiration",
+    "text": "Inspiration\nThis list of sources of inspiration is incomplete and will be continuously updated.\n\nQuarto Websites\n\nPersonal website of Robert Mitchell\n\n\n\nQuarto Guides\n\n“The ultimate guide to starting a Quarto blog” by Albert Rapp\n\n\n\nCourse Websites\n\n“NSCS 344 — Modeling the Mind” by Robert C. Wilson\n“RL-Course” by Philipp Schwartenbeck"
+  },
+  {
+    "objectID": "acknowledgements.html#links",
+    "href": "acknowledgements.html#links",
+    "title": "Acknowledgements & Attribution",
+    "section": "Links",
+    "text": "Links\n\nSearch of Fontawesome Icons\nHow to open hyperlinks in new tab by default\nCan you make callouts collapsable by default\nMarkdown License Badges"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Version control of code and data using Git and DataLad",
+    "section": "",
+    "text": "Welcome!\nThis is the website of the full-semester course on “Version control of code and data using Git and DataLad” at the University of Hamburg.\n\n What? Full-semester course on version control\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience\n\n Jobs? Join our team!\n Code? Find all source code on GitHub!\n Details? Read our project proposal!\n Bug? Open an issue or send an email!\n Questions? Read the FAQ or send an email!\n Thanks! Thanks to all our supporters!\n\n\nThe illustration on this website is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "This website is still under active development! \n\n\n\n\n\nWe are continuously updating information on this website. Watch this space for any updates. If you have any urgent questions, always feel free to write an email. Thank you for your patience!"
+  },
+  {
+    "objectID": "faq.html#participation",
+    "href": "faq.html#participation",
+    "title": "FAQ",
+    "section": "Participation",
+    "text": "Participation\n\n\n\n\n\n\nCan I participate online?\n\n\n\nThis is still being discussed. Watch this space for any updates.\n\n\n\n\n\n\n\n\nWho can participate in the course?\n\n\n\nThe course is targeted at Master’s and PhD students in Psychology and Cognitive Neuroscience.\n\n\n\n\n\n\n\n\nDo I have to be a student at the University of Hamburg in order to participate?\n\n\n\nThis is still being discussed. Watch this space for any updates."
+  },
+  {
+    "objectID": "faq.html#course",
+    "href": "faq.html#course",
+    "title": "FAQ",
+    "section": "Course",
+    "text": "Course\n\n\n\n\n\n\nWhen will the course take place?\n\n\n\nThe course will take place in the Winter semester 2023/24. The lecture period is from 9 October 2023 to 27 January 2024. The exact times and dates will be announced soon.\n\n\n\n\n\n\n\n\nWhere will the course take place?\n\n\n\nThe course will take place at the Institute of Psychology at the University of Hamburg. The exact room will be announced soon."
+  },
+  {
     "objectID": "resources.html#all",
     "href": "resources.html#all",
     "title": "Resources",
@@ -61,69 +124,6 @@
     "title": "Schedule",
     "section": "",
     "text": "The course schedule is still under construction! \n\n\n\n\n\nWe are continuously updating information on this website. Watch this space for any updates. If you have any urgent questions, always feel free to write an email. Thank you for your patience!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Version control of code and data using Git and DataLad",
-    "section": "",
-    "text": "Welcome!\nThis is the website of the full-semester course on “Version control of code and data using Git and DataLad” at the University of Hamburg.\n\n What? Full-semester course on version control\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience\n\n Jobs? Join our team!\n Code? Find all source code on GitHub!\n Details? Read our project proposal!\n Bug? Open an issue or send an email!\n Questions? Read the FAQ or send an email!\n Thanks! Thanks to all our supporters!"
-  },
-  {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "This website is still under active development! \n\n\n\n\n\nWe are continuously updating information on this website. Watch this space for any updates. If you have any urgent questions, always feel free to write an email. Thank you for your patience!"
-  },
-  {
-    "objectID": "faq.html#participation",
-    "href": "faq.html#participation",
-    "title": "FAQ",
-    "section": "Participation",
-    "text": "Participation\n\n\n\n\n\n\nCan I participate online?\n\n\n\nThis is still being discussed. Watch this space for any updates.\n\n\n\n\n\n\n\n\nWho can participate in the course?\n\n\n\nThe course is targeted at Master’s and PhD students in Psychology and Cognitive Neuroscience.\n\n\n\n\n\n\n\n\nDo I have to be a student at the University of Hamburg in order to participate?\n\n\n\nThis is still being discussed. Watch this space for any updates."
-  },
-  {
-    "objectID": "faq.html#course",
-    "href": "faq.html#course",
-    "title": "FAQ",
-    "section": "Course",
-    "text": "Course\n\n\n\n\n\n\nWhen will the course take place?\n\n\n\nThe course will take place in the Winter semester 2023/24. The lecture period is from 9 October 2023 to 27 January 2024. The exact times and dates will be announced soon.\n\n\n\n\n\n\n\n\nWhere will the course take place?\n\n\n\nThe course will take place at the Institute of Psychology at the University of Hamburg. The exact room will be announced soon."
-  },
-  {
-    "objectID": "acknowledgements.html",
-    "href": "acknowledgements.html",
-    "title": "Acknowledgements & Attribution",
-    "section": "",
-    "text": "This project is funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details can be found here).\nOur project proposal can be found here (in German).\nSpecial thanks to Carolin Scharfenberg as well as Moritz Kreinsen and Sören-Kristian Berger for help with project coordination, administration, and the grant application process."
-  },
-  {
-    "objectID": "acknowledgements.html#funding",
-    "href": "acknowledgements.html#funding",
-    "title": "Acknowledgements & Attribution",
-    "section": "",
-    "text": "This project is funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details can be found here).\nOur project proposal can be found here (in German).\nSpecial thanks to Carolin Scharfenberg as well as Moritz Kreinsen and Sören-Kristian Berger for help with project coordination, administration, and the grant application process."
-  },
-  {
-    "objectID": "acknowledgements.html#website",
-    "href": "acknowledgements.html#website",
-    "title": "Acknowledgements & Attribution",
-    "section": "Website",
-    "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Keeper.\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll code is licensed under CC BY-SA 4.0.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
-  },
-  {
-    "objectID": "acknowledgements.html#inspiration",
-    "href": "acknowledgements.html#inspiration",
-    "title": "Acknowledgements & Attribution",
-    "section": "Inspiration",
-    "text": "Inspiration\nThis list of sources of inspiration is incomplete and will be continously updated.\n\nQuarto Websites\n\nPersonal website of Robert Mitchell\n\n\n\nQuarto Guides\n\n“The ultimate guide to starting a Quarto blog” by Albert Rapp\n\n\n\nCourse Websites\n\n“NSCS 344 — Modeling the Mind” by Robert C. Wilson\n“RL-Course” by Philipp Schwartenbeck"
-  },
-  {
-    "objectID": "acknowledgements.html#links",
-    "href": "acknowledgements.html#links",
-    "title": "Acknowledgements & Attribution",
-    "section": "Links",
-    "text": "Links\n\nSearch of Fontawesome Icons\nHow to open hyperlinks in new tab by default\nCan you make callouts collapsable by default\nMarkdown License Badges"
   },
   {
     "objectID": "about.html",
