@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Version control of code and data using Git and DataLad</title>
+<title>Version control of code and data using Git and DataLad - Mechanics: Course Overview</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -32,6 +51,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -76,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-house" aria-label="house"></i> Home</span></a>
   </li>  
   <li class="nav-item">
@@ -96,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><i class="fa-solid fa-gem" aria-label="gem"></i> Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./mechanics.html" rel="" target="">
+    <a class="nav-link active" href="./mechanics.html" rel="" target="" aria-current="page">
  <span class="menu-text"><i class="fa-solid fa-gear" aria-label="gear"></i> Mechanics</span></a>
   </li>  
   <li class="nav-item">
@@ -126,48 +146,125 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#flipped-classroom" id="toc-flipped-classroom" class="nav-link active" data-scroll-target="#flipped-classroom">Flipped Classroom</a></li>
+  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course Materials</a>
+  <ul>
+  <li><a href="#textbook-version-control-book" id="toc-textbook-version-control-book" class="nav-link" data-scroll-target="#textbook-version-control-book">Textbook: Version Control Book</a></li>
+  </ul></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#active-learning" id="toc-active-learning" class="nav-link" data-scroll-target="#active-learning">Active Learning</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
+  <li><a href="#pair-programming" id="toc-pair-programming" class="nav-link" data-scroll-target="#pair-programming">Pair Programming</a></li>
+  <li><a href="#implementation" id="toc-implementation" class="nav-link" data-scroll-target="#implementation">Implementation</a></li>
+  <li><a href="#module" id="toc-module" class="nav-link" data-scroll-target="#module">Module</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="images/version_control_scriberia.jpg" class="about-image
-  rectangle " style="width: 32em;">
+<main class="content column-page-left" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Version control of code and data using Git and DataLad</h1>
-<p class="subtitle lead">A full-semester course at the University of Hamburg</p>
+<h1 class="title">Mechanics: Course Overview</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
 </header>
-  </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<section id="welcome" class="level3">
-<h3 data-anchor-id="welcome">Welcome!</h3>
-<p>This is the website of the full-semester course on “Version control of code and data using Git and DataLad” at the University of Hamburg.</p>
-<hr>
-<p><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> <strong>What?</strong> Full-semester course on version control</p>
-<p><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>When?</strong> Wintersemester 2023/24 (Oct to Jan)</p>
-<p><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Where?</strong> University of Hamburg (virtual TBD)</p>
-<p><i class="fa-solid fa-user-group" aria-label="user-group"></i> <strong>Who?</strong> Master’s and PhD students (target group)</p>
-<p><i class="fa-solid fa-brain" aria-label="brain"></i> <strong>Focus?</strong> Psychology and Cognitive Neuroscience</p>
-<hr>
-<p><i class="fa-solid fa-user-plus" aria-label="user-plus"></i> <strong>Jobs?</strong> Join our <a href="./team.html" target="_self">team</a>!</p>
-<p><i class="fa-brands fa-github" aria-label="github"></i> <strong>Code?</strong> Find all source code <a href="https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23">on GitHub</a>!</p>
-<p><i class="fa-solid fa-lightbulb" aria-label="lightbulb"></i> <strong>Details?</strong> Read our project <a href="https://lennartwittkuhn.com/ddlitlab-proposal">proposal</a>!</p>
-<p><i class="fa-solid fa-bug" aria-label="bug"></i> <strong>Bug?</strong> Open an <a href="https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23/issues">issue</a> or send an <a href="mailto:lennart.wittkuhn@uni-hamburg.de" target="_blank">email</a>!</p>
-<p><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <strong>Questions?</strong> Read the <a href="./faq.html" target="_self">FAQ</a> or send an <a href="mailto:lennart.wittkuhn@uni-hamburg.de" target="_blank">email</a>!</p>
-<p><i class="fa-solid fa-heart" aria-label="heart"></i> <strong>Thanks!</strong> Thanks to all our <a href="./acknowledgements.html" target="_self">supporters</a>!</p>
-<hr>
-<div style="font-size: 70%;">
-<p>The illustration on this website is created by <a href="https://www.scriberia.com/">Scriberia</a> with <a href="https://the-turing-way.netlify.app/welcome">The Turing Way community</a>. Used under a <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 licence</a>. DOI: <a href="https://doi.org/10.5281/zenodo.3695300">10.5281/zenodo.3332807</a></p>
+
+<p>This course will be conducted in person, but all <a href="#course-materials">course materials</a> will be available online. The course follows a <a href="#flipped-classroom">flipped classroom</a> and <a href="#active-learning">active learning</a> approach, which means that students will learn the <a href="#course-materials">content</a> outside of class and engage in <a href="#assignments">assignments</a> during class.</p>
+<section id="flipped-classroom" class="level2">
+<h2 class="anchored" data-anchor-id="flipped-classroom">Flipped Classroom</h2>
+<p>The flipped classroom is an educational approach where <strong>students learn the instructional content outside of class</strong> (e.g., through videos or online resources) and <strong>use class time for interactive activities</strong>, discussions, and collaboration. In this course, students will learn at home using the available online resources. Class time is protected time for implementation.</p>
+</section>
+<section id="course-materials" class="level2">
+<h2 class="anchored" data-anchor-id="course-materials">Course Materials</h2>
+<section id="textbook-version-control-book" class="level3">
+<h3 class="anchored" data-anchor-id="textbook-version-control-book">Textbook: Version Control Book</h3>
+<p>In preparation for each seminar session, students will be asked to study specific chapters in the <a href="https://lennartwittkuhn.com/version-control-book/">Version Control Book</a>. The Version Control Book aims to summarize all the relevant course contents for the students, effectively serving as a textbook for the course. In addition, we will provide references to multiple other learning resources, allowing students to pick from those learning resources that they feel supports their learning process best.</p>
+</section>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>There are no prerequisites to take part in this course. Programming experience (any language) can be beneficial but is not required to follow the course contents.</p>
+</section>
+<section id="active-learning" class="level2">
+<h2 class="anchored" data-anchor-id="active-learning">Active Learning</h2>
+<p>Active learning in this class involves engaging in <strong>hands-on coding activities during class time</strong>. Research on active learning indicates that this approach promotes a greater understanding and retention of the material compared to passive teaching methods <span class="citation" data-cites="deslauriers2019">(see e.g., <a href="#ref-deslauriers2019" role="doc-biblioref">Deslauriers et al., 2019</a>)</span>.</p>
+</section>
+<section id="assignments" class="level2">
+<h2 class="anchored" data-anchor-id="assignments">Assignments</h2>
+<p>Students will work on assignments (individually or in <a href="#pair-programming">pairs</a> during class.</p>
+</section>
+<section id="pair-programming" class="level2">
+<h2 class="anchored" data-anchor-id="pair-programming">Pair Programming</h2>
+<blockquote class="blockquote">
+<p>Pair programming is a software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator <span class="citation" data-cites="williams2001">(<a href="#ref-williams2001" role="doc-biblioref">Williams, 2001</a>)</span>, reviews each line of code as it is typed in. The two programmers switch roles frequently. – Source: <a href="https://en.wikipedia.org/wiki/Pair_programming">Wikipedia</a></p>
+</blockquote>
+</section>
+<section id="implementation" class="level2">
+<h2 class="anchored" data-anchor-id="implementation">Implementation</h2>
+<blockquote class="blockquote">
+<p>“<em>For training to have an impact, students must implement what they’ve learned in their own research.</em>” <span class="citation" data-cites="weissgerber2023">(<a href="#ref-weissgerber2023" role="doc-biblioref">Weissgerber, 2023</a>)</span></p>
+</blockquote>
+<p><span class="citation" data-cites="heise2023">Heise et al. (<a href="#ref-heise2023" role="doc-biblioref">2023</a>)</span> outline actions that course organizers can take to prepare and support course participants in implementing what they have learned once they return to their research environment.</p>
+<p>On <a href="./implementation.html">this page</a> we consider how to apply the recommendations by <span class="citation" data-cites="heise2023">Heise et al. (<a href="#ref-heise2023" role="doc-biblioref">2023</a>)</span> to our course in detail.</p>
+</section>
+<section id="module" class="level2">
+<h2 class="anchored" data-anchor-id="module">Module</h2>
+<p>This course will be offered as part of the “Psychologischer Wahlbereich” module of the <a href="https://www.psy.uni-hamburg.de/en/studium/studiengaenge/msc-psychology-research.html">M.Sc. Psychology (Research, as of WiSe 23/24)</a> at the University of Hamburg.</p>
+<blockquote class="blockquote">
+<p>The Master of Science in Psychology is a consecutive program that is strongly research-oriented. The regular period of study is 4 semesters. Teaching language is primarily English. The degree program comprises 8 modules with 2 complementary areas of concentration.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Im “Psychologischen Wahlbereich” werden Veranstaltungen zu wechselnden Themen der Psychologie angeboten. Darüber hinaus können Studierende Module oder einzelne für den Wahlbereich geöffnete Lehrveranstaltungen aus den Modulen C. und D., die sie nicht im Rahmen ihres Grundlagen- oder Anwendungswahlfaches belegt haben, besuchen.</p>
+</blockquote>
+<details>
+<summary>
+Click here to view the <strong>full module description</strong> (in German).
+</summary>
+<p><br></p>
+<iframe width="100%" height="1200" src="images/20211110-fsb-pb-msc-psychologie-19-wahlpflicht.pdf"></iframe>
+</details>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-deslauriers2019" class="csl-entry" role="listitem">
+Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., &amp; Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. <em>Proceedings of the National Academy of Sciences</em>, <em>116</em>(39), 19251–19257. <a href="https://doi.org/10.1073/pnas.1821936116">https://doi.org/10.1073/pnas.1821936116</a>
+</div>
+<div id="ref-heise2023" class="csl-entry" role="listitem">
+Heise, V., Holman, C., Lo, H., Lyras, E. M., Adkins, M. C., Aquino, M. R. J., Bougioukas, K. I., Bray, K. O., Gajos, M., Guo, X., Hartling, C., Huerta-Gutierrez, R., Jindrová, M., Kenney, J. P. M., Kępińska, A. P., Kneller, L., Lopez-Rodriguez, E., Mühlensiepen, F., Richards, A., … Weissgerber, T. L. (2023). Ten simple rules for implementing open and reproducible research practices after attending a training course. <em>PLOS Computational Biology</em>, <em>19</em>(1), e1010750. <a href="https://doi.org/10.1371/journal.pcbi.1010750">https://doi.org/10.1371/journal.pcbi.1010750</a>
+</div>
+<div id="ref-weissgerber2023" class="csl-entry" role="listitem">
+Weissgerber, T. L. (2023). <em>Bridging the gap: From education to implementation</em>. <a href="https://doi.org/10.5281/ZENODO.7974345">https://doi.org/10.5281/ZENODO.7974345</a>
+</div>
+<div id="ref-williams2001" class="csl-entry" role="listitem">
+Williams, L. (2001). Integrating pair programming into a software development process. <em>Proceedings 14th Conference on Software Engineering Education and Training. ’In Search of a Software Engineering Profession’ (Cat. No.PR01059)</em>. <a href="https://doi.org/10.1109/csee.2001.913816">https://doi.org/10.1109/csee.2001.913816</a>
+</div>
+<div id="ref-wilson2021" class="csl-entry" role="listitem">
+Wilson, R. C. (2021). <em>NSCS 344 — modeling the mind</em>. University of Arizona. <a href="https://u.arizona.edu/~bob/web_NSCS344/">https://u.arizona.edu/~bob/web_NSCS344/</a>
+</div>
 </div>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script defer="" data-domain="lennartwittkuhn.com/versioncontrol-course-uhh-ws23" src="https://plausible.io/js/script.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -189,6 +286,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
