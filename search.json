@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "What? Full-semester course on version control using Git and DataLad\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience"
+  },
+  {
+    "objectID": "about.html#overview",
+    "href": "about.html#overview",
+    "title": "About",
+    "section": "",
+    "text": "What? Full-semester course on version control using Git and DataLad\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience"
+  },
+  {
+    "objectID": "about.html#abstract",
+    "href": "about.html#abstract",
+    "title": "About",
+    "section": "Abstract",
+    "text": "Abstract\nThe digital objects on our computers are in a constant state of flux. Manuscripts, programming code and research data are changed continuously over long periods of time, often in close collaboration with others. A systematic documentation of these changes forms the basis for controlled and reproducible work on code and data. In a seminar with hands-on exercises, course participants will learn “Version control of code and data using Git and DataLad”.\nVersion control is the notebook for a digital world and Git is probably the best known version control system. Git allows to precisely document changes in digital objects and thus to track who changed what, when, how and why in a file. Changes can be revised, versions can be compared and restored. In addition, it is possible to work simultaneously on the same file and systematically integrate parallel versions. In addition, Git enables effective collaboration. Via platforms such as GitHub or GitLab, code and data can be shared with the world, transparently viewed by others, used and collaboratively developed. In this way, version control helps to ensure that knowledge generated from data is transparent, accessible and verifiable. As an effective method for storing and manipulating code and data, version control thus represents a core competency of data literacy.\nBecause Git was developed for versioning small, text-based files (such as programming code), its usability with larger, binary files (such as image or video data) is limited for technical reasons. The open-source software DataLad extends the features of Git to provide version control for large data sets (up to several terabytes). DataLad is applicable to arbitrary data structures and is independent of any central infrastructure or third-party vendors. Like Git, DataLad allows tracking changes to data and restoring previous versions of a data set. Furthermore, DataLad allows you to capture the digital provenance of data and accurately reproduce analyses of the data. In addition, DataLad allows to publish data on a variety of platforms or use existing data."
+  },
+  {
     "objectID": "acknowledgements.html",
     "href": "acknowledgements.html",
     "title": "Acknowledgements & Attribution",
@@ -19,48 +40,6 @@
     "title": "Acknowledgements & Attribution",
     "section": "Website",
     "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Nextcloud (UHH Cloud). They can be retrieved using make download-images.\n\n\nClick here to view the full Makefile of this project.\n\n\n\n\nMakefile\n\n# define URL to Nextcloud where static files are stored:\nIMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download\n# define a name for the .zip-archive with the cloud contents:\nIMAGES_ARCHIVE=version-control-course.zip\n# define the name of the local folder:\nIMAGES_DIR=images/\n\n# define the default targets of the make command\nall: download-images\n\n# download and extract images:\ndownload-images:\n    wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)\n    unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)\n    rm -f $(IMAGES_ARCHIVE)\n\n# clean downloaded images folder:\nclean:\n    rm -rf $(IMAGES_DIR)*\n\n\n\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll contents are licensed under CC BY-SA 4.0, unless indicated otherwise.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
-  },
-  {
-    "objectID": "acknowledgements.html#inspiration",
-    "href": "acknowledgements.html#inspiration",
-    "title": "Acknowledgements & Attribution",
-    "section": "Inspiration",
-    "text": "Inspiration\nThis list of sources of inspiration is incomplete and will be continuously updated.\n\nQuarto Websites\n\nPersonal website of Robert Mitchell\n\n\n\nQuarto Guides\n\n“The ultimate guide to starting a Quarto blog” by Albert Rapp\n\n\n\nCourse Websites\n\n“NSCS 344 — Modeling the Mind” by Robert C. Wilson\n“RL-Course” by Philipp Schwartenbeck"
-  },
-  {
-    "objectID": "acknowledgements.html#links",
-    "href": "acknowledgements.html#links",
-    "title": "Acknowledgements & Attribution",
-    "section": "Links",
-    "text": "Links\n\nSearch of Fontawesome Icons\nHow to open hyperlinks in new tab by default\nCan you make callouts collapsable by default\nMarkdown License Badges"
-  },
-  {
-    "objectID": "implementation.html",
-    "href": "implementation.html",
-    "title": "Implementation",
-    "section": "",
-    "text": "In the Supporting Information S2 “Tips for course organizers” of their article “Ten simple rules for implementing open and reproducible research practices after attending a training course” (License: CC BY 4.0), Heise et al. (2023) outline actions that course organizers can take to prepare and support course participants in implementing what they have learned once they return to their research environment."
-  },
-  {
-    "objectID": "implementation.html#when-designing-a-course",
-    "href": "implementation.html#when-designing-a-course",
-    "title": "Implementation",
-    "section": "When designing a course",
-    "text": "When designing a course\n\n1. Consider participants’ background and research type when designing materials.\n\n\n2. Cover a range of topics in your course.\n\n\n3. Talk about top-down robust research policies.\n\n\n4. Include information on “soft skills” related to behavioral change in research groups.\n\n\n5. Give participants time to start implementing practices.\n\n\n6. Consider offering a series of sessions, instead of covering many topics in a short period of time."
-  },
-  {
-    "objectID": "implementation.html#when-participants-return-to-their-own-research-environments",
-    "href": "implementation.html#when-participants-return-to-their-own-research-environments",
-    "title": "Implementation",
-    "section": "When participants return to their own research environments",
-    "text": "When participants return to their own research environments\n\n1. Make your teaching materials and resources open and re-usable.\n\n\n2. Create (and support) communities.\n\n\n3. Support implementation.\n\n\n4. Consider follow-up events"
-  },
-  {
-    "objectID": "implementation.html#references",
-    "href": "implementation.html#references",
-    "title": "Implementation",
-    "section": "References",
-    "text": "References\n\n\nHeise, V., Holman, C., Lo, H., Lyras, E. M., Adkins, M. C., Aquino, M. R. J., Bougioukas, K. I., Bray, K. O., Gajos, M., Guo, X., Hartling, C., Huerta-Gutierrez, R., Jindrová, M., Kenney, J. P. M., Kępińska, A. P., Kneller, L., Lopez-Rodriguez, E., Mühlensiepen, F., Richards, A., … Weissgerber, T. L. (2023). Ten simple rules for implementing open and reproducible research practices after attending a training course. PLOS Computational Biology, 19(1), e1010750. https://doi.org/10.1371/journal.pcbi.1010750"
   },
   {
     "objectID": "schedule.html",
@@ -137,35 +116,14 @@
     "href": "mechanics.html#references",
     "title": "Mechanics: Course Overview",
     "section": "References",
-    "text": "References\n\n\nDeslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. Proceedings of the National Academy of Sciences, 116(39), 19251–19257. https://doi.org/10.1073/pnas.1821936116\n\n\nHeise, V., Holman, C., Lo, H., Lyras, E. M., Adkins, M. C., Aquino, M. R. J., Bougioukas, K. I., Bray, K. O., Gajos, M., Guo, X., Hartling, C., Huerta-Gutierrez, R., Jindrová, M., Kenney, J. P. M., Kępińska, A. P., Kneller, L., Lopez-Rodriguez, E., Mühlensiepen, F., Richards, A., … Weissgerber, T. L. (2023). Ten simple rules for implementing open and reproducible research practices after attending a training course. PLOS Computational Biology, 19(1), e1010750. https://doi.org/10.1371/journal.pcbi.1010750\n\n\nWeissgerber, T. L. (2023). Bridging the gap: From education to implementation. https://doi.org/10.5281/ZENODO.7974345\n\n\nWilliams, L. (2001). Integrating pair programming into a software development process. Proceedings 14th Conference on Software Engineering Education and Training. ’In Search of a Software Engineering Profession’ (Cat. No.PR01059). https://doi.org/10.1109/csee.2001.913816\n\n\nWilson, R. C. (2021). NSCS 344 — modeling the mind. University of Arizona. https://u.arizona.edu/~bob/web_NSCS344/"
+    "text": "References\n\n\nDeslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. Proceedings of the National Academy of Sciences, 116(39), 19251–19257. https://doi.org/10.1073/pnas.1821936116. License: CC BY-NC-ND.\n\n\nHeise, V., Holman, C., Lo, H., Lyras, E. M., Adkins, M. C., Aquino, M. R. J., Bougioukas, K. I., Bray, K. O., Gajos, M., Guo, X., Hartling, C., Huerta-Gutierrez, R., Jindrová, M., Kenney, J. P. M., Kępińska, A. P., Kneller, L., Lopez-Rodriguez, E., Mühlensiepen, F., Richards, A., … Weissgerber, T. L. (2023). Ten simple rules for implementing open and reproducible research practices after attending a training course. PLOS Computational Biology, 19(1), e1010750. https://doi.org/10.1371/journal.pcbi.1010750. License: CC BY 4.0.\n\n\nWeissgerber, T. L. (2023). Bridging the gap: From education to implementation. https://doi.org/10.5281/ZENODO.7974345. License: CC BY 4.0.\n\n\nWilliams, L. (2001). Integrating pair programming into a software development process. Proceedings 14th Conference on Software Engineering Education and Training. ’In Search of a Software Engineering Profession’ (Cat. No.PR01059). https://doi.org/10.1109/csee.2001.913816. License: Unknown.\n\n\nWilson, R. C. (2021). NSCS 344 — modeling the mind. University of Arizona. https://u.arizona.edu/~bob/web_NSCS344/. License: Unknown."
   },
   {
-    "objectID": "resources.html#all",
-    "href": "resources.html#all",
-    "title": "Resources",
-    "section": "All",
-    "text": "All\n\n\n\n\n\ntitle\nauthors\nyear\nsource\nlicense\ncategory\n\n\n\n\nBecome a git guru\nAtlassian\nNA\nNA\nNA\nguide\n\n\nExperimentology - An Open Science Approach to Experimental Psychology Methods (Appendix A)\nMichael C. Frank et al.\n2023\n\n\nguide\n\n\nExperimentology - An Open Science Approach to Experimental Psychology Methods (Chapter 13 on Project Management)\nMichael C. Frank et al.\n2023\n\n\nguide\n\n\nRemoving sensitive data from a repository\nGitHub Team\n2023\n\n\narticle\n\n\n“Git & GitHub” - Chapter in the R Packages Book (2nd edition)\nHadley Wickham & Jenny Bryan\n2023\n\n\nbook\n\n\nIntroduction to version control with Git\nCodeRefinery\n2022\n\n\nworkshop\n\n\nCollaborative distributed version control\nCodeRefinery\n2022\n\n\nworkshop\n\n\nUsing Git to Code, Collaborate and Share\nImperial College Research Computing Service\n2022\n\n\nguide\n\n\nOh Shit, Git!?!\nKatie Sylor-Miller\n2021\n\nNA\nwebsite\n\n\nData Science for Economists - Lecture 2: Version control with Git(Hub)\nGrant McDermott\n2021\n\n\nslides\n\n\nHappy Git and GitHub for the useR\nJennifer Bryan et al.\n2021\n\n\nbook\n\n\nThe Turing Way - Chapter on Version Control\nThe Turing Way Community\n2021\n\n\nguide\n\n\nReproducible Research Data and Project Management in R - Chapter on Version Control with Git\nAnna Krystalli\n2021\n\n\nguide\n\n\nThe Missing Semester of Your CS Education - Chapter on Version Control\nThe Missing Semester Team\n2020\n\nNA\nguide\n\n\nHow to Teach Git Commits & GitHub to Teenagers\nJeff Olson\n2020\nNA\nNA\narticle\n\n\nGit for Scientists\nMiles McBain\n2019\n\n\ncourse\n\n\nVersion Control with Git\nThe Carpentries\n2019\n\n\nguide\n\n\nExcuse Me, Do You Have a Moment to Talk About Version Control?\nJennifer Bryan\n2017\nNA\nNA\npaper\n\n\nA Quick Introduction to Version Control with Git and GitHub\nJohn D. Blischak et al.\n2016\nNA\n\npaper\n\n\nGit for Humans\nAlice Bartlett\n2016\nNA\nNA\nslides\n\n\nA Friendly Github Intro Workshop\nKirstie Whitaker\n2016\n\n\nworkshop\n\n\nPro Git (2nd edition)\nScott Chacon & Ben Straub\n2014\nNA\n\nbook\n\n\nHow to Write a Git Commit Message\ncbeams\n2014\nNA\nNA\narticle"
-  },
-  {
-    "objectID": "resources.html#guides",
-    "href": "resources.html#guides",
-    "title": "Resources",
-    "section": "Guides",
-    "text": "Guides\nTBA"
-  },
-  {
-    "objectID": "resources.html#courses",
-    "href": "resources.html#courses",
-    "title": "Resources",
-    "section": "Courses",
-    "text": "Courses\nTBA"
-  },
-  {
-    "objectID": "resources.html#papers",
-    "href": "resources.html#papers",
-    "title": "Resources",
-    "section": "Papers",
-    "text": "Papers\nTBA"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Version control of code and data using Git and DataLad",
+    "section": "",
+    "text": "Welcome!\nThis is the website of the full-semester course on “Version control of code and data using Git and DataLad” at the University of Hamburg.\n\n What? Full-semester course on version control\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience\n\n Jobs? Join our team!\n Code? Find all source code on GitHub!\n Details? Read our project proposal!\n Bug? Open an issue or send an email!\n Questions? Read the FAQ or send an email!\n Thanks! Thanks to all our supporters!\n\n\nThe illustration on this website is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
   },
   {
     "objectID": "team.html#project-leader-instructor",
@@ -196,6 +154,62 @@
     "text": "Student Teaching Assistant\n\n\nYou?\nWe are soon looking for a student teaching assistant!\n\n Tasks: Assistance during teaching (e.g., supporting course participants during seminars and exercises)\n Duration: 09.10.2023 to 27.01.2024 (WS 2023/24)\n Hours: 2 semester hours (SWS; 90 minutes) per week\n Salary: 135.44 € / SWS\n\nDetails will follow soon. Feel free to send an email for any inquiries."
   },
   {
+    "objectID": "resources.html#all",
+    "href": "resources.html#all",
+    "title": "Resources",
+    "section": "All",
+    "text": "All\n\n\n\n\n\ntitle\nauthors\nyear\nsource\nlicense\ncategory\n\n\n\n\nBecome a git guru\nAtlassian\nNA\nNA\nNA\nguide\n\n\nExperimentology - An Open Science Approach to Experimental Psychology Methods (Appendix A)\nMichael C. Frank et al.\n2023\n\n\nguide\n\n\nExperimentology - An Open Science Approach to Experimental Psychology Methods (Chapter 13 on Project Management)\nMichael C. Frank et al.\n2023\n\n\nguide\n\n\nRemoving sensitive data from a repository\nGitHub Team\n2023\n\n\narticle\n\n\n“Git & GitHub” - Chapter in the R Packages Book (2nd edition)\nHadley Wickham & Jenny Bryan\n2023\n\n\nbook\n\n\nIntroduction to version control with Git\nCodeRefinery\n2022\n\n\nworkshop\n\n\nCollaborative distributed version control\nCodeRefinery\n2022\n\n\nworkshop\n\n\nUsing Git to Code, Collaborate and Share\nImperial College Research Computing Service\n2022\n\n\nguide\n\n\nOh Shit, Git!?!\nKatie Sylor-Miller\n2021\n\nNA\nwebsite\n\n\nData Science for Economists - Lecture 2: Version control with Git(Hub)\nGrant McDermott\n2021\n\n\nslides\n\n\nHappy Git and GitHub for the useR\nJennifer Bryan et al.\n2021\n\n\nbook\n\n\nThe Turing Way - Chapter on Version Control\nThe Turing Way Community\n2021\n\n\nguide\n\n\nReproducible Research Data and Project Management in R - Chapter on Version Control with Git\nAnna Krystalli\n2021\n\n\nguide\n\n\nThe Missing Semester of Your CS Education - Chapter on Version Control\nThe Missing Semester Team\n2020\n\nNA\nguide\n\n\nHow to Teach Git Commits & GitHub to Teenagers\nJeff Olson\n2020\nNA\nNA\narticle\n\n\nGit for Scientists\nMiles McBain\n2019\n\n\ncourse\n\n\nVersion Control with Git\nThe Carpentries\n2019\n\n\nguide\n\n\nExcuse Me, Do You Have a Moment to Talk About Version Control?\nJennifer Bryan\n2017\nNA\nNA\npaper\n\n\nA Quick Introduction to Version Control with Git and GitHub\nJohn D. Blischak et al.\n2016\nNA\n\npaper\n\n\nGit for Humans\nAlice Bartlett\n2016\nNA\nNA\nslides\n\n\nA Friendly Github Intro Workshop\nKirstie Whitaker\n2016\n\n\nworkshop\n\n\nPro Git (2nd edition)\nScott Chacon & Ben Straub\n2014\nNA\n\nbook\n\n\nHow to Write a Git Commit Message\ncbeams\n2014\nNA\nNA\narticle"
+  },
+  {
+    "objectID": "resources.html#guides",
+    "href": "resources.html#guides",
+    "title": "Resources",
+    "section": "Guides",
+    "text": "Guides\nTBA"
+  },
+  {
+    "objectID": "resources.html#courses",
+    "href": "resources.html#courses",
+    "title": "Resources",
+    "section": "Courses",
+    "text": "Courses\nTBA"
+  },
+  {
+    "objectID": "resources.html#papers",
+    "href": "resources.html#papers",
+    "title": "Resources",
+    "section": "Papers",
+    "text": "Papers\nTBA"
+  },
+  {
+    "objectID": "implementation.html",
+    "href": "implementation.html",
+    "title": "Implementation",
+    "section": "",
+    "text": "In the Supporting Information S2 “Tips for course organizers” of their article “Ten simple rules for implementing open and reproducible research practices after attending a training course” (License: CC BY 4.0), Heise et al. (2023) outline actions that course organizers can take to prepare and support course participants in implementing what they have learned once they return to their research environment."
+  },
+  {
+    "objectID": "implementation.html#when-designing-a-course",
+    "href": "implementation.html#when-designing-a-course",
+    "title": "Implementation",
+    "section": "When designing a course",
+    "text": "When designing a course\n\n1. Consider participants’ background and research type when designing materials.\n\n\n2. Cover a range of topics in your course.\n\n\n3. Talk about top-down robust research policies.\n\n\n4. Include information on “soft skills” related to behavioral change in research groups.\n\n\n5. Give participants time to start implementing practices.\n\n\n6. Consider offering a series of sessions, instead of covering many topics in a short period of time."
+  },
+  {
+    "objectID": "implementation.html#when-participants-return-to-their-own-research-environments",
+    "href": "implementation.html#when-participants-return-to-their-own-research-environments",
+    "title": "Implementation",
+    "section": "When participants return to their own research environments",
+    "text": "When participants return to their own research environments\n\n1. Make your teaching materials and resources open and re-usable.\n\n\n2. Create (and support) communities.\n\n\n3. Support implementation.\n\n\n4. Consider follow-up events"
+  },
+  {
+    "objectID": "implementation.html#references",
+    "href": "implementation.html#references",
+    "title": "Implementation",
+    "section": "References",
+    "text": "References\n\n\nHeise, V., Holman, C., Lo, H., Lyras, E. M., Adkins, M. C., Aquino, M. R. J., Bougioukas, K. I., Bray, K. O., Gajos, M., Guo, X., Hartling, C., Huerta-Gutierrez, R., Jindrová, M., Kenney, J. P. M., Kępińska, A. P., Kneller, L., Lopez-Rodriguez, E., Mühlensiepen, F., Richards, A., … Weissgerber, T. L. (2023). Ten simple rules for implementing open and reproducible research practices after attending a training course. PLOS Computational Biology, 19(1), e1010750. https://doi.org/10.1371/journal.pcbi.1010750. License: CC BY 4.0."
+  },
+  {
     "objectID": "faq.html",
     "href": "faq.html",
     "title": "FAQ",
@@ -215,33 +229,5 @@
     "title": "FAQ",
     "section": "Course",
     "text": "Course\n\n\n\n\n\n\nWhen will the course take place?\n\n\n\nThe course will take place in the Winter semester 2023/24. The lecture period is from 9 October 2023 to 27 January 2024. The exact times and dates will be announced soon.\n\n\n\n\n\n\n\n\nWhere will the course take place?\n\n\n\nThe course will take place at the Institute of Psychology at the University of Hamburg. The exact room will be announced soon."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Version control of code and data using Git and DataLad",
-    "section": "",
-    "text": "Welcome!\nThis is the website of the full-semester course on “Version control of code and data using Git and DataLad” at the University of Hamburg.\n\n What? Full-semester course on version control\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience\n\n Jobs? Join our team!\n Code? Find all source code on GitHub!\n Details? Read our project proposal!\n Bug? Open an issue or send an email!\n Questions? Read the FAQ or send an email!\n Thanks! Thanks to all our supporters!\n\n\nThe illustration on this website is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "What? Full-semester course on version control using Git and DataLad\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience"
-  },
-  {
-    "objectID": "about.html#overview",
-    "href": "about.html#overview",
-    "title": "About",
-    "section": "",
-    "text": "What? Full-semester course on version control using Git and DataLad\n When? Wintersemester 2023/24 (Oct to Jan)\n Where? University of Hamburg (virtual TBD)\n Who? Master’s and PhD students (target group)\n Focus? Psychology and Cognitive Neuroscience"
-  },
-  {
-    "objectID": "about.html#abstract",
-    "href": "about.html#abstract",
-    "title": "About",
-    "section": "Abstract",
-    "text": "Abstract\nThe digital objects on our computers are in a constant state of flux. Manuscripts, programming code and research data are changed continuously over long periods of time, often in close collaboration with others. A systematic documentation of these changes forms the basis for controlled and reproducible work on code and data. In a seminar with hands-on exercises, course participants will learn “Version control of code and data using Git and DataLad”.\nVersion control is the notebook for a digital world and Git is probably the best known version control system. Git allows to precisely document changes in digital objects and thus to track who changed what, when, how and why in a file. Changes can be revised, versions can be compared and restored. In addition, it is possible to work simultaneously on the same file and systematically integrate parallel versions. In addition, Git enables effective collaboration. Via platforms such as GitHub or GitLab, code and data can be shared with the world, transparently viewed by others, used and collaboratively developed. In this way, version control helps to ensure that knowledge generated from data is transparent, accessible and verifiable. As an effective method for storing and manipulating code and data, version control thus represents a core competency of data literacy.\nBecause Git was developed for versioning small, text-based files (such as programming code), its usability with larger, binary files (such as image or video data) is limited for technical reasons. The open-source software DataLad extends the features of Git to provide version control for large data sets (up to several terabytes). DataLad is applicable to arbitrary data structures and is independent of any central infrastructure or third-party vendors. Like Git, DataLad allows tracking changes to data and restoring previous versions of a data set. Furthermore, DataLad allows you to capture the digital provenance of data and accurately reproduce analyses of the data. In addition, DataLad allows to publish data on a variety of platforms or use existing data."
   }
 ]

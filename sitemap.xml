@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/acknowledgements.html</loc>
-    <lastmod>2023-07-04T15:30:15.163Z</lastmod>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/about.html</loc>
+    <lastmod>2023-07-06T08:39:36.304Z</lastmod>
   </url>
   <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/implementation.html</loc>
-    <lastmod>2023-07-04T15:30:13.283Z</lastmod>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/acknowledgements.html</loc>
+    <lastmod>2023-07-06T08:39:35.380Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/schedule.html</loc>
-    <lastmod>2023-07-04T15:30:12.387Z</lastmod>
+    <lastmod>2023-07-06T08:39:33.620Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/mechanics.html</loc>
-    <lastmod>2023-07-04T15:30:11.547Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/resources.html</loc>
-    <lastmod>2023-07-04T15:30:08.875Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/team.html</loc>
-    <lastmod>2023-07-04T15:30:11.007Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/faq.html</loc>
-    <lastmod>2023-07-04T15:30:12.003Z</lastmod>
+    <lastmod>2023-07-06T08:39:30.652Z</lastmod>
   </url>
   <url>
     <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/index.html</loc>
-    <lastmod>2023-07-04T15:30:12.831Z</lastmod>
+    <lastmod>2023-07-06T08:39:27.172Z</lastmod>
   </url>
   <url>
-    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/about.html</loc>
-    <lastmod>2023-07-04T15:30:13.727Z</lastmod>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/team.html</loc>
+    <lastmod>2023-07-06T08:39:30.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/resources.html</loc>
+    <lastmod>2023-07-06T08:39:33.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/implementation.html</loc>
+    <lastmod>2023-07-06T08:39:34.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/faq.html</loc>
+    <lastmod>2023-07-06T08:39:35.868Z</lastmod>
   </url>
 </urlset>
