@@ -1,0 +1,33 @@
+/* CSS for Code Block with Bash Highlighting */
+
+/* Code Block Container */
+pre.code-block {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+/* Bash Syntax Highlighting */
+pre.code-block code.language-bash {
+  color: #c7254e;
+}
+
+/* Bash Keywords */
+pre.code-block code.language-bash .token.keyword {
+  color: #c7254e;
+}
+
+/* Bash String Values */
+pre.code-block code.language-bash .token.string {
+  color: #718c00;
+}
+
+/* Bash Comments */
+pre.code-block code.language-bash .token.comment {
+  color: #888888;
+  font-style: italic;
+}
